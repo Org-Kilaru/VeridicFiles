@@ -2,7 +2,7 @@
 # java 
 # before starting update centos and install extra package for enterprise linux 
 #sudo yum install epel-release
-#sudo yum update
+#sudo yum update -y
 #sudo reboot
 sudo yum install java-1.8.0-openjdk.x86_64 -y
 java -version
